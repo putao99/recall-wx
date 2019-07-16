@@ -1,0 +1,29 @@
+<!-- wxml -->
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:for-index="index">
+    <swiper-item>
+      <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- wxml -->
+ <wux-divider show-text="{{ false }}" />
+   <wux-search-bar clear maxlength="8" bindinput='formName' bind:blur='search' bind:change='getSuggest'/>
+
+
+   <view>
+    <view class='detail-view'>
+      {{rubbishName}}
+    </view>
+       <view class='detail-view'>
+      {{rubbishDefine}}
+    </view>
+
+       <view class='detail-view'>
+      {{rubbishConclude}}
+    </view>
+
+       <view class='detail-view'>
+      {{rubbishRequest}}
+    </view>
+   </view>

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "wux-icon": "../../dist/icon/index",
+    "wux-search-bar": "../../dist/search-bar/index",
+    "wux-filterbar": "../../dist/filterbar/index",
+    "wux-divider": "../../dist/divider/index",
+    "wux-row": "../../dist/row/index",
+    "wux-col": "../../dist/col/index"
+  }
+  
+}
